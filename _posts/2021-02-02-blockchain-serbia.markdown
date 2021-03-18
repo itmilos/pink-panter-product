@@ -7,9 +7,8 @@ categories: blockchain
 
 ![Decentralize](https://decentralize.rs/)
 
-
 ![Bloxico](https://bloxico.com/)
-
 
 ![SurgeTech](https://www.surgetech.eu/)
 
+![MVPworkshop](https://mvpworkshop.co/)
