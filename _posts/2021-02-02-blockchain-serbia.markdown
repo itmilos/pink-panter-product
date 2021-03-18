@@ -12,3 +12,9 @@ categories: blockchain
 ![SurgeTech](https://www.surgetech.eu/)
 
 ![MVPworkshop](https://mvpworkshop.co/)
+
+![BCX](https://bcx.rs/)
+
+![yourbtms](https://yourbtms.com/)
+
+![ECD](https://ecd.rs/)
