@@ -18,3 +18,7 @@ categories: blockchain
 ![yourbtms](https://yourbtms.com/)
 
 ![ECD](https://ecd.rs/)
+
+![https://safex.org/](Safex)
+
+![https://octaitsourcing.com/](octaitsourcing.com)
