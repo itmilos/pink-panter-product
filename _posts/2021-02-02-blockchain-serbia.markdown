@@ -22,3 +22,5 @@ categories: blockchain
 ![https://safex.org/](Safex)
 
 ![https://octaitsourcing.com/](octaitsourcing.com)
+
+![https://kriptomat.io/](https://kriptomat.io/)
