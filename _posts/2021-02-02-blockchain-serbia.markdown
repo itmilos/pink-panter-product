@@ -24,3 +24,7 @@ categories: blockchain
 ![https://octaitsourcing.com/](octaitsourcing.com)
 
 ![https://kriptomat.io/](https://kriptomat.io/)
+
+
+![http://www.linum.co.rs/](http://www.linum.co.rs/)
+
