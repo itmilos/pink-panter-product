@@ -1,86 +1,78 @@
-#
-# This file contains configuration flags to customize your site
-#
+# Site settings
 
-# Name of your site (displayed in the header)
-name: Your Name
+title: Powerful New Theme for GitHub Pages | OpenTheme.co
+tagline: Amazing Websites and Hybrid Apps. Speedily!
+email: sehgal.manav@gmail.com
+copyright: Manav Sehgal
+keywords: open theme, github pages, semantic ui, single page apps
 
-# Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: > # this means to ignore newlines until "url:". One indent required.
+  Powerful new theme featuring Semantic UI for speedily creating amazing websites and mobile-hybrid apps on GitHub Pages.
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+# the base hostname & protocol for your site
+url: "http://opentheme.co"
 
-#
-# Flags below are optional
-#
+twitter_username: manavsehgal
+github_username:  manavsehgal
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+default_image: /img/opentheme-workflow.png
 
+# Pre-processing
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
+markdown: kramdown
+highlighter: pygments
+safe: true
+permalink: pretty # YYYY/MM/DD/page-title/index.html
+lsi: true # Lexical analysis (true) takes longer for higher quality
+# sass:
+#  style: :compressed
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+# Exclude from Jekyll processing
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url:
+exclude: ["vendor", "README.md", "node_modules", "gulpfile.js", "package.json"]
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+# Lists
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+tag_items: 20     # Applies to categories and tags lists
+recent_items: 10  # Applies to recent posts, apps lists
+related_items: 5  # Applies to related posts and apps lists
 
-permalink: /:title/
+# Layout
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
+pagebar: true # Show (true) page sidebar menu or hide (false) 
+postbar: true # Show (true) post sidebar or hide (false) 
 
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+# Features
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
+reading_time: true    # Show est. reading time for posts
+facebook: false        # Use facebook features
+comments: disqus      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+# Embeds
 
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+disqus_name: opentheme            # Your site name at Disqus
+
+youtube_controls: 0               # Turn on=1/off=0 Youtube player features when embedding videos
+
+google_map_zoom: 16               # 1=Global zoom 18=Street Level
+google_map_view: satellite        # hybrid | satellite | roadmap
+google_map_height: 450            # Default map height. Width adjusts to container.
+
+# API Keys. PLEASE DO NOT USE THESE KEYS. Get your own at links in comments.
+
+google_api_key: "AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0" # https://code.google.com/apis/console/
+google_analytics_ua: "UA-57703915-1" # Google Analytics site specific id
+google_cse_id: "012558675018178618302:kw1_r8qgyqc" # Google Custom Search Engine unique id
+
+mapbox: "pk.eyJ1Ijoib3BlbnRoZW1lIiwiYSI6ImNIWC1LTUUifQ.vq4k3nfTeTtDAk7eLCrVAw"
+
+facebook_app: "390272554479803" # https://developers.facebook.com/
+
+mailchimp_u: "cf72d9276397b3175b874eb39" # Mailchimp u=unique identification
+mailchimp_id: "3a51637dcc" # Mailchip id
+
+addthis_pubid: "ra-54a66cfa35915034" # Get your pubid at https://www.addthis.com/dashboard
+
+pingdom_rum: "54a97d8aabe53daf361855a6" # https://my.pingdom.com/dashboard. Real User experience (speed) monitoring.
+
+uservoice: "nvdgD40UtxnMoshpVHYxg"
